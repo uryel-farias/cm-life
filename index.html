@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMLife - Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap
+">
 </head>
 <body>
-    <nav id="home">
-        <figure>
-            <a href="#home">
-                <img src="/assets/logo.png" alt="">
-            </a>
-        </figure>
 
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="./especialidades.html">Especialidades</a></li>
-            <li><a href="#contato">Contato</a></li>
-         </ul>
-            
-
-    </nav>
+    <div class="home-container">
+        <nav id="home" class="home">
+            <figure>
+                <a href="#home">
+                    <img class="home-logo" src="/assets/logo.png" alt="">
+                </a>
+            </figure>
+            <ul class="home-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="./especialidades.html">Especialidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+             </ul>
+        </nav>
+    </div>
 
     <header class="banner">
-        <h1>Clínica Médica Life Aqui a gente cuida de você</h1>
+        <div class="banner-titulo-container">
+            <h1>Clínica Médica Life <br> Aqui a gente cuida de você</h1>
+        </div>
     </header>
 
     <section id="sobre">
@@ -79,7 +83,7 @@
         <a href="/especialidades.html">Ver Horários</a>
     </section>
 
-    <section class="contato">
+    <section id="contato" class="contato">
             <h2>Contato</h2>
             <p>Nossa clínica médica está aberto de <strong>segunda à sábado das 6:00 às 21:00</strong></p>
             <p>Através do telefone/WhatsApp <strong>(21) 99966-5555</strong> você pode fazer o agendamento de consultas e exames.</p>
