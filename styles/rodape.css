@@ -1,0 +1,25 @@
+footer {
+    background-color: #0c6e71;
+}
+
+.rodape-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.rodape-container img {
+    width: 200px;
+}
+
+.rodape-container p {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}

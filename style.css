@@ -2,6 +2,7 @@
 @import url(/styles/rodape.css);
 @import url(/styles/conteudo/sobre.css);
 @import url(/styles/conteudo/multiespecialidades.css);
+@import url(/styles/conteudo/contato.css);
 @import url(/styles/especialidades/especialista.css);
 
 * {
