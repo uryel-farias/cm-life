@@ -1,0 +1,65 @@
+.multiespecialidades-container {
+    max-width: 1024px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.multiespecialidades-info {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.multiespecialidades-info h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.multiespecialidades-info p {
+    font-size: 20px;
+}
+
+.multiespecialidades-imagens {
+    display: flex;
+    gap: 30px;
+
+}
+
+.multiespecialidades-imagens figure {
+    box-shadow: 0px 0px 10px black ;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.multiespecialidades-imagens figure img{
+    max-width: 300px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+
+.multiespecialidades-imagens figcaption {
+    z-index: 1;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.multiespecialidades-container a {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px auto;
+    text-decoration: none;
+    background-color: #00cad1;
+    color: white;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
