@@ -60,6 +60,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 3px;
+}
 
-
+.multiespecialidades-container a:hover {
+    color: black;
+    transition: 1s;
 }
