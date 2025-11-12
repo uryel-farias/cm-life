@@ -17,7 +17,8 @@
 
 .home-links {
     display: flex;
-    gap: 25px;
+    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .home-links li{
@@ -63,10 +64,43 @@
 }
 
 @media (max-width: 1024px) {
+        .home {
+        padding: 0 25px;
+        
+    }
+
+    .home-links a {
+        font-size: 18px;
+    }
+
 
 }
 
 @media (max-width: 768px) {
+    .home {
+        justify-content: space-around;
+    }
+
+    .home-logo {
+        width: 130px;
+    }
+
+    .banner {
+        padding: 25px;
+        height: 300px;
+    }
+
+    .banner-titulo-container {
+        height: 100%;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+
+
+
 
 }
 

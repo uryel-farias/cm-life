@@ -1,6 +1,7 @@
 .multiespecialidades-container {
     max-width: 1024px;
     margin: 20px auto;
+    padding: 0 25px;
     display: flex;
     flex-direction: column;
 }
@@ -22,7 +23,9 @@
 
 .multiespecialidades-imagens {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -33,7 +36,7 @@
 }
 
 .multiespecialidades-imagens figure img{
-    width: 300px;
+    max-width: 300px;
     border-radius: 5px 5px 0 0;
     object-fit: cover;
 }
@@ -70,22 +73,43 @@
 
 @media (max-width: 1024px) {
 
+    .multiespecialidades-container {
+        padding: 25px;
+    }
+
+    .multiespecialidades-imagens {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .multiespecialidades-imagens figure {
+        max-width: 300px;
+        gap: 20px;
+        
+    }
 }
 
 @media (max-width: 768px) {
+   .multiespecialidades-container {
+        padding: 25px;
+    }
+    
+    .multiespecialidades-info {
+        width: 100%;
+    }
+
+    .multiespecialidades-imagens {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
 
 }
 
 @media (max-width: 425px) {
 
-    .multiespecialidades-container {
-        padding: 25px;
-    }
 
-    .multiespecialidades-info {
-        width: 100%;
-        padding-bottom: 10px;
-    }
 
     .multiespecialidades-info h3 {
         font-size: 20px;
