@@ -52,3 +52,54 @@
 }
 
 
+@media (max-width: 1024px) {
+    .sobre-info {
+        width: 90%;
+    }
+
+    .sobre-info h2 {
+        font-size: 22px;
+    }
+
+    .sobre-info p {
+        font-size: 18px;
+    }
+
+    .sobre-servisos-container {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .sobre-servisos h3 {
+        font-size: 18px;
+    }
+
+    .sobre-servisos p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-servisos-container figure {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .sobre-info h2 {
+        font-size: 20px;
+    }
+
+    .sobre-info p {
+        font-size: 16px;
+    }
+
+    .sobre-servisos h3 {
+        font-size: 16px;
+    }
+
+    .sobre-servisos p {
+        font-size: 14px;
+    }
+
+}

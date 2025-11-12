@@ -23,3 +23,25 @@ footer {
     font-size: 20px;
     padding-bottom: 20px;
 }
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    .rodape-container {
+        padding: 25px;
+    }
+
+    .rodape-container img {
+        width: 130px;
+    }
+
+    .rodape-container p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+
+}

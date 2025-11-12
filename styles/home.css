@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 1024px) {
-        .home {
+    .home {
         padding: 0 25px;
         
     }
@@ -73,12 +73,23 @@
         font-size: 18px;
     }
 
+    .banner {
+        padding: 25px;
+        height: 500px;
+    }
+
+    .banner-titulo-container {
+        height: 100%;
+    }
+
+
 
 }
 
 @media (max-width: 768px) {
     .home {
         justify-content: space-around;
+        
     }
 
     .home-logo {
