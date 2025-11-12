@@ -61,3 +61,43 @@
     
 
 }
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+
+    .home-container {
+        padding: 25px;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home-logo {
+        width: 130px;
+    }
+
+    .home-links {
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
+        justify-content: space-evenly;
+        
+    }
+    
+    .home-links a {
+        font-size: 16px;
+    }
+
+    .home-links {
+        border-top: 2px solid #0c6e71;
+    }
+
+}
