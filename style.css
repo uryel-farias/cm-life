@@ -3,6 +3,7 @@
 @import url(/styles/conteudo/sobre.css);
 @import url(/styles/conteudo/multiespecialidades.css);
 @import url(/styles/conteudo/contato.css);
+@import url(/styles/especialidades/sobre.css);
 @import url(/styles/especialidades/especialista.css);
 
 * {
@@ -18,9 +19,27 @@ strong {
 }
 
 /*
-#00cad1
 
+---------------CORES--------------
+
+#00cad1
 #0c6e71
 
 #f1f1f1
 #cdcdcd
+
+----------MEDIA QUERIES----------
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+
+}
+
+*/
