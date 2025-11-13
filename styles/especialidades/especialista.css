@@ -28,6 +28,92 @@
 }
 
 
+
+/*-----------------------------SESSOES---------------------------------*/
+
+
+section {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.especialidade-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.especialidade-info h2{
+    font-size: 20px;
+    
+}
+
+.especialidade-info p {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/*-------------------------TABELA-CONTAINER-----------------------------*/
+
+.horarios-container {
+    width: 100%;
+    display: flex;
+
+}
+
+.horarios-container figure {
+    max-width: 300px;
+    height: auto;
+}
+
+.horarios-container figure img{
+    max-width: 300px;
+    height: auto;
+
+    object-fit: cover;
+}
+
+.especialidade-tabela {
+    font-size: 16px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.especialidade-tabela th {
+    background-color: #00cad1;
+    color: white;
+    text-align: start;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.especialidade-tabela td {
+    text-align: start;
+    padding: 10px;
+    color: #0c6e71;
+}
+
+.especialidade-tabela tr:nth-of-type(odd) {
+    background-color: #cdcdcd;
+}
+
+.especialidade-tabela tr:nth-of-type(even) {
+    background-color: #f1f1f1;
+}
+
+
+/*-----------------------------TABELAS---------------------------------*/
+
+
+
 @media (max-width: 768px) {
 
     .header-lista {
@@ -46,6 +132,24 @@
 
     }
 
+    .horarios-container figure img{
+        display: none;
+    }
+
+    .especialidade-info p {
+    margin: 0 auto;
+    width: 100%;
 }
 
+}
+
+@media (max-width: 425px) {
+    section {
+        padding: 15px 0;
+    }
+
+    section div:first-child {
+        padding: 25px;
+    }
+}
 
